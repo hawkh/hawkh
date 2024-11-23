@@ -1,5 +1,5 @@
 
-![]([https://github.com/hawkh/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif](https://github.com/hawkh/hawkh/blob/main/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif))
+<img src="https://github.com/hawkh/hawkh/blob/main/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif?raw=true">
 <h3 align="center">A passionate Data Scientist from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=hawkh&label=Profile%20views&color=0e75b6&style=flat" alt="hawkh" /> </p>
