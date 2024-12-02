@@ -12,6 +12,13 @@
 
 - 📫 How to reach me **23f1002525@ds.study.iitm.ac.in**
 
+
+## 📈 I'm looking for:
+
+- Machine Learning Engineering, Data Science roles
+- Opportunities to work on cutting-edge ML systems
+
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/sai-ruthvik-6b880a213" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/sai-ruthvik-6b880a213" height="30" width="40" /></a>
