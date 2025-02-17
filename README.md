@@ -1,6 +1,6 @@
 
 <img src="https://github.com/hawkh/hawkh/blob/main/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif?raw=true">
-<h3 align="center">A passionate Data Scientist from India</h3>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=560&lines=I+am+a+Data+Scientist+from+India;I+am+a+currently+exploring+Computer+Vision;I+am+a+Machine+Learning+Engineer" alt="Typing SVG" /></a>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=hawkh&label=Profile%20views&color=0e75b6&style=flat" alt="hawkh" /> </p>
 
