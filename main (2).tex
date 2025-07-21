@@ -1,0 +1,174 @@
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\textwidth}{1.5in}
+\addtolength{\topmargin}{-0.65in}
+\addtolength{\textheight}{1.45in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Sections formatting with consistent spacing
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+\titlespacing*{\section}{0pt}{8pt}{5pt}
+
+\pdfgentounicode=1
+
+% Standardized custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{#1}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \small#1 & #2 \\
+  \end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}, itemsep=2pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{0pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,itemsep=2pt,parsep=0pt,topsep=1pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Large \scshape Sai Ruthvik Bommakanti} \\ \vspace{1pt}
+    \small +91 9290614597 $|$ \href{mailto:ruthvikworking@gmail.com}{ruthvikworking@gmail.com} $|$ 
+    \href{https://linkedin.com/in/sai-ruthvik-6b880a213}{{\underline{linkedin.com/in/sai-ruthvik}}} $|$
+    \href{https://github.com/hawkh}{{\underline{github.com/hawkh}}}
+\end{center}
+
+%-------PROFESSIONAL SUMMARY-------
+\section{Professional Summary}
+\small{Machine Learning Engineer with expertise in computer vision, NLP, and edge AI solutions. Demonstrated success in developing models that improve efficiency metrics by 30-40\% and accuracy by 10-15\%. Strong technical foundation in PyTorch, BERT, and RAG with experience in full ML development lifecycle from data preprocessing to deployment. Seeking to leverage technical skills and innovative approach to drive impact.}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Livestockify}{Aug 2024 -- Present}
+      {Machine Learning Engineer Intern}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Engineered ML models improving poultry disease detection from 82\% to 95\%, reducing false negatives by 35\%}
+        \resumeItem{Implemented IoT-ML monitoring system processing 500+ data points daily with real-time analytics}
+        \resumeItem{Developed audio-based health monitoring system reducing manual inspection time by 40\%}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Infin AI Club, IIT Madras}{Jan 2024 -- Present}
+      {Tech Lead}{Remote}
+      \resumeItemListStart
+          \resumeItem{Led team of 8 members across AI/ML projects, establishing development standards and technical roadmaps}
+          \resumeItem{Organized 3 hackathons and 5 workshops, increasing club membership by 40\% and project completion by 25\%}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Verzeo}{Jan 2023 -- Feb 2023}
+      {Machine Learning Intern}{Remote}
+      \resumeItemListStart
+          \resumeItem{Developed sentiment analysis model for Amazon reviews using BERT, achieving 95\% classification accuracy}
+          \resumeItem{Preprocessed 50,000+ texts with NLP techniques, improving F1-score by 12\% over baseline models}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Technology Madras}{Jan 2023 -- Present}
+      {B.Sc. Data Science and Applications — CGPA: 7.00/10.0}{}
+      \resumeItemListStart
+        \resumeItem{Relevant Coursework: Machine Learning Foundations, Statistics and Probability, Deep Learning Architectures, Data Structures and Algorithms, Computer Vision, Natural Language Processing, Python Programming}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Marri Laxman Reddy Institute of Technology}{Nov 2022 -- Present}
+      {B.Tech Computer Science and IT — CGPA: 8.49/10.0}{}
+      \resumeItemListStart
+        \resumeItem{Relevant Coursework: Object Oriented Programming, Advanced Data Structures and Algorithms, Computer Networks, Operating Systems, Database Management Systems, Web Development}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Resonance Jr College}{April 2020 -- Aug 2022}
+      {Intermediate — CGPA: 9.39/10.0}{}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\resumeItemListStart
+    \resumeItem{\textbf{Programming Languages}: Python (Advanced - NumPy, Pandas, Data Analysis), Java (OOP, Collections), SQL (Joins, Complex Queries), JavaScript (Basic)}
+    \resumeItem{\textbf{Machine Learning \& AI}: PyTorch, Scikit-learn, BERT, Transformers, RAG, Computer Vision (YOLO, OpenCV), NLP, LangChain, Model Optimization}
+    \resumeItem{\textbf{Data Engineering}: ETL Pipelines, MongoDB, MySQL, Data Preprocessing, Feature Engineering, Vector Databases (FAISS)}
+    \resumeItem{\textbf{Tools \& Frameworks}: Git, Docker, Jupyter Notebooks, Streamlit, Linux, Google Cloud, MLflow (basic), Kubernetes (basic)}
+\resumeItemListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+      {\textbf{BERT-Based AI Content Classification}}{$|$ \emph{Deep Learning, NLP, PyTorch}}
+      \resumeItemListStart
+        \resumeItem{Implemented BERT model processing 200+ articles/minute with 92\% F1-score on 12,000+ training samples}
+        \resumeItem{Utilized Hugging Face's transformers library for BERT tokenization and fine-tuning}
+        \resumeItem{Optimized with Stratified K-Fold validation and Adam optimizer, reducing inference time by 35\%}
+      \resumeItemListEnd
+  \resumeProjectHeading
+    {\textbf{Intelligent Poultry Monitoring System}}
+    {$|$ \emph{Computer Vision, Edge AI}}
+    \resumeItemListStart
+        \resumeItem{Developed AI pipeline processing 5+ camera feeds with 98\% uptime; deployed YOLOv11 on Raspberry Pi}
+        \resumeItem{Trained and deployed model to count chickens and estimate weights with 96\% accuracy}
+        \resumeItem{Implemented anomaly detection reducing disease outbreak response time from days to hours}
+    \resumeItemListEnd
+  \resumeProjectHeading
+      {\textbf{Document Intelligence System}}
+      {$|$ \emph{NLP, LangChain, RAG}}
+      \resumeItemListStart
+          \resumeItem{Built LangChain/FAISS document analysis tool with 50K+ embeddings and sub-second query response}
+          \resumeItem{Designed streamlit-based UI supporting concurrent users with real-time document Q\&A capabilities}
+          \resumeItem{Utilized prompt engineering techniques to enhance response accuracy from 75\% to 91\%}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+\resumeItemListStart
+    \resumeItem{First Place Winner - AI/ML Hackathon, IIT Madras 2024 (200+ participants)}
+    \resumeItem{Selected for Dhandho Fellowship 2023 (Top 500 from 10,000+ applicants)}
+    \resumeItem{Certifications: Advanced SQL (HackerRank), Machine Learning Specialization (Coursera), Deep Learning with PyTorch}
+\resumeItemListEnd
+\end{document}
