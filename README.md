@@ -12,7 +12,7 @@
 
 - 💬 Ask me about **scikit-learn,Pandas,Numpy,Matplotlib**
 
-- 📫 How to reach me **23f1002525@ds.study.iitm.ac.in**
+- 📫 How to reach me **ruthvikworking@gmail.com**
 
 
 ## 📈 I'm looking for:
